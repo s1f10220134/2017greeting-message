@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-def greet(name):
-    message = 'Hello, ' + name + '-san!'
-=======
+
 from datetime import datetime
 
 def greet():
@@ -12,7 +9,10 @@ def greet():
         message = 'Hello'
     else:
         message = 'Good evening'
->>>>>>> timely-message
+
+def greet(name):
+    message = 'Hello, ' + name + '-san!'
+
     print(message)
 
 
